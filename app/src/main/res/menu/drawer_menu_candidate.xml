@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/user"
+        android:title="My Profile" />
+
+    <item
+        android:id="@+id/fr1"
+        android:checked="true"
+        android:icon="@drawable/announcement"
+        android:title="Announcements" />
+
+    <item
+        android:id="@+id/fr2"
+        android:icon="@drawable/poll"
+        android:title="Polls" />
+
+    <item
+        android:id="@+id/fr3"
+        android:icon="@drawable/info_squared_96"
+        android:title="Candidate Info" />
+
+    <item
+        android:id="@+id/fr4"
+        android:icon="@drawable/result"
+        android:title="Result" />
+
+<!--
+    <item
+        android:id="@+id/helpdesk"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Helpdesk" />
+
+    <item
+        android:id="@+id/go"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Go to Other Activity" />-->
+
+    <item
+        android:id="@+id/close"
+        android:icon="@drawable/sign_out"
+        android:title="Sign Out" />
+</menu>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@android:color/white">
+
+        <ImageView
+            android:id="@+id/imageViewUpdate"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ok_96" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:scrollbarStyle="insideOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageViewProfilePicture"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.58"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#000000"
+                    android:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.58"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editTextFirstName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/edit_text"
+                            android:drawableLeft="@drawable/gender_neutral_user_48"
+                            android:drawablePadding="10dp"
+                            android:hint="First Name"
+                            android:inputType="textPersonName"
+                            android:padding="10dp"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLastName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/edit_text"
+                            android:drawableLeft="@drawable/gender_neutral_user_48"
+                            android:drawablePadding="10dp"
+                            android:hint="Last Name"
+                            android:inputType="textPersonName"
+                            android:padding="10dp"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editTextEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:drawable/edit_text"
+                        android:drawableLeft="@drawable/message_48"
+                        android:drawablePadding="10dp"
+                        android:hint="Email Address"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextMobileNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:drawable/edit_text"
+                        android:drawableLeft="@drawable/iphone_48"
+                        android:drawablePadding="10dp"
+                        android:hint="Mobile No."
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editTextGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/edit_text"
+                            android:drawableLeft="@drawable/gender_48"
+                            android:drawablePadding="10dp"
+                            android:hint="Gender"
+                            android:inputType="text"
+                            android:padding="10dp"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/editTextDOB"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/edit_text"
+                            android:drawableLeft="@drawable/calendar_48"
+                            android:drawablePadding="10dp"
+                            android:focusableInTouchMode="false"
+                            android:hint="Date of Birth"
+                            android:inputType="textPersonName"
+                            android:padding="10dp"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editTextAddressLine1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/edit_text"
+                        android:drawableLeft="@drawable/home_48"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:hint="Address Line 1"
+                        android:inputType="text"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextAddressLine2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/edit_text"
+                        android:drawableLeft="@drawable/address_book_48"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:hint="Address Line 2"
+                        android:inputType="text"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editTextPostcode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/edit_text"
+                            android:drawableLeft="@drawable/postcard_48"
+                            android:drawablePadding="10dp"
+                            android:ems="10"
+                            android:hint="Postcode"
+                            android:inputType="text"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/editTextCity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/edit_text"
+                            android:drawableLeft="@drawable/skyscrapers_48"
+                            android:drawablePadding="10dp"
+                            android:ems="10"
+                            android:hint="City"
+                            android:inputType="text"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editTextState"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/edit_text"
+                            android:drawableLeft="@drawable/region_code_48"
+                            android:drawablePadding="10dp"
+                            android:ems="10"
+                            android:hint="State"
+                            android:inputType="text"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/editTextCountry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/edit_text"
+                            android:drawableLeft="@drawable/world_map_48"
+                            android:drawablePadding="10dp"
+                            android:ems="10"
+                            android:hint="Country"
+                            android:inputType="text"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!--<Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Update"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />-->
+
+    </LinearLayout>
+
+</LinearLayout>

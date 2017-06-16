@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alip.evcma"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        tools:replace="android:icon"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".MainCandidateActivity" />
+
+        <activity android:name=".CandidateDetailsActivity"
+            android:label="Candidate Details" />
+
+        <activity android:name=".ListCandidateActivity"
+            android:label="List of Candidate" />
+
+        <activity android:name=".ListCandidatePollActivity"
+            android:label="List of Poll" />
+
+        <activity android:name=".ForgotPasswordActivity"
+            android:label="Forgot Password" />
+
+        <activity
+            android:name=".DesActivity"
+            android:label="Destination Activity" />
+        <activity
+            android:name=".AnnouncementActivity"
+            android:label="Announcement Information"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".CandidateInformationActivity"
+            android:label="Candidate Information" />
+        <activity android:name=".CandidateUpdateInformationActivity"
+            />
+
+        <activity
+            android:name=".ResultActivity"
+            android:label="Result Information" />
+        <activity
+            android:name=".ResultPageActivity"
+            android:label="Result Information" />
+        <activity
+            android:name=".HelpdeskActivity"
+            android:label="Helpdesk IT Support" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile" />
+        <activity
+            android:name=".ProfileEditActivity"
+            android:label="Profile Information"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".PollActivity"
+            android:label="Poll Information" />
+        <activity android:name=".LoginActivity"
+            android:label="Login"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">EVCMA</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="studentno">Student No.</string>
+    <string name="password">Password</string>
+
+    <string-array name="item_updates">
+        <item>Announcement 1</item>
+        <item>Announcement 2</item>
+        <item>Announcement 3</item>
+        <item>Announcement 4</item>
+        <item>Announcement 5</item>
+        <item>Announcement 6</item>
+        <item>Announcement 7</item>
+        <item>Announcement 8</item>
+        <item>Announcement 9</item>
+        <item>Announcement 10</item>
+        <item>Announcement 11</item>
+        <item>Announcement 12</item>
+        <item>Announcement 13</item>
+        <item>Announcement 14</item>
+        <item>Announcement 15</item>
+        <item>Announcement 16</item>
+        <item>Announcement 17</item>
+        <item>Announcement 18</item>
+        <item>Announcement 19</item>
+        <item>Announcement 20</item>
+    </string-array>
+
+    <string-array name="item_candidates">
+        <item>Candidate 1</item>
+        <item>Candidate 2</item>
+        <item>Candidate 3</item>
+        <item>Candidate 4</item>
+        <item>Candidate 5</item>
+        <item>Candidate 6</item>
+        <item>Candidate 7</item>
+        <item>Candidate 8</item>
+        <item>Candidate 9</item>
+        <item>Candidate 10</item>
+        <item>Candidate 11</item>
+        <item>Candidate 12</item>
+        <item>Candidate 13</item>
+        <item>Candidate 14</item>
+        <item>Candidate 15</item>
+        <item>Candidate 16</item>
+        <item>Candidate 17</item>
+        <item>Candidate 18</item>
+        <item>Candidate 19</item>
+        <item>Candidate 20</item>
+    </string-array>
+
+    <string-array name="item_vote">
+        <item>Vote 1</item>
+        <item>Vote 2</item>
+        <item>Vote 3</item>
+        <item>Vote 4</item>
+        <item>Vote 5</item>
+        <item>Vote 6</item>
+        <item>Vote 7</item>
+        <item>Vote 9</item>
+        <item>Vote 10</item>
+        <item>Vote 11</item>
+        <item>Vote 12</item>
+        <item>Vote 13</item>
+        <item>Vote 14</item>
+        <item>Vote 15</item>
+        <item>Vote 16</item>
+        <item>Vote 17</item>
+        <item>Vote 18</item>
+        <item>Vote 19</item>
+        <item>Vote 20</item>
+    </string-array>
+
+    <string-array name="item_result">
+        <item>Result 1</item>
+        <item>Result 2</item>
+        <item>Result 3</item>
+        <item>Result 4</item>
+        <item>Result 5</item>
+        <item>Result 6</item>
+        <item>Result 7</item>
+        <item>Result 8</item>
+        <item>Result 9</item>
+        <item>Result 10</item>
+        <item>Result 11</item>
+        <item>Result 12</item>
+        <item>Result 13</item>
+        <item>Result 14</item>
+        <item>Result 15</item>
+        <item>Result 16</item>
+        <item>Result 17</item>
+        <item>Result 18</item>
+        <item>Result 19</item>
+        <item>Result 20</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>Course</item>
+        <item>BSE</item>
+        <item>BCSS</item>
+        <item>BCEM</item>
+        <item>BNS</item>
+    </string-array>
+
+    <string-array name="semester">
+        <item>Semester</item>
+        <item>JAN 2017</item>
+        <item>SEPT 2016</item>
+        <item>FEB 2016</item>
+        <item>SEPT 2015</item>
+    </string-array>
+
+    <string name="title_activity_login2">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

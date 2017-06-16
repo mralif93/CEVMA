@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "932689589149",
+    "firebase_url": "https://evcma-c3bde.firebaseio.com",
+    "project_id": "evcma-c3bde",
+    "storage_bucket": "evcma-c3bde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932689589149:android:3826963222ff5495",
+        "android_client_info": {
+          "package_name": "com.example.alip.evcma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932689589149-fhqiupo084obo21q2rlj786ptlq2ltmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeKStWQd4EQhavkDL9DB1uzUMYUb5C9dA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
